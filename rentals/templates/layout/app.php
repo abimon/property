@@ -70,7 +70,7 @@
 
         <!-- Header Starts -->
         <div class="header">
-            <a href="/"><img src="{% static 'images/logo.png'%}" alt="Realestate" style="height:1vh;"></a>
+            <a href="/"><img src="{% static 'images/logo.png'%}" alt="Realestate" style="height:10vh;"></a>
 
             <ul class="pull-right">
                 <!-- <li><a href="/buysalerent">Buy</a></li>
