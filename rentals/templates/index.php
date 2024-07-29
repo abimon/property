@@ -7,7 +7,7 @@
       <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25"
         data-slice1-scale="2" data-slice2-scale="2">
         <div class="sl-slide-inner">
-          <div class="bg-img-1" style="background-image: url({% static '/images/slider/3.jpg' %});"></div>
+          <div class="bg-img bg-img-1"></div>
           <h2><a href="#">2 Bed Rooms and 1 Dinning Room Aparment on Sale</a></h2>
           <blockquote>
             <p class="location"><span class="glyphicon glyphicon-map-marker"></span> 1890 Syndey, Australia</p>
@@ -269,7 +269,7 @@
         <h3>About Us</h3>
         <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
           1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
-          form, accompanied by English versions from the 1914 translation by H. Rackham.<br><a href="about.php">Learn
+          form, accompanied by English versions from the 1914 translation by H. Rackham.<br><a href="/about">Learn
             More</a></p>
 
       </div>
