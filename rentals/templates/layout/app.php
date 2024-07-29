@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.css' %}" />
     <link rel="stylesheet" href="{% static 'assets/style.css' %}" />
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="{% static 'assets/bootstrap/js/bootstrap.js' %}"></script>
     <script src="{% static 'assets/script.js' %}"></script>
 
