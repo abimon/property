@@ -1,3 +1,6 @@
+{% extends 'layout/app.php'%}
+{%block content%}
+{% load static %}
 <div>
     <h1>Terms and Conditions</h1>
 
@@ -59,3 +62,4 @@
     <p>+254 701 583 807</p>
     <p>info@urbanlink.co.ke</p>
 </div>
+{%endblock%}
