@@ -8,6 +8,8 @@ def reg(request):
     return render(request, 'register.php')
 def about(request):
     return render(request, 'about.php')
+def terms(request):
+    return render(request, 'terms.php')
 def rent(request):
     houses = House.objects.all()
     context={

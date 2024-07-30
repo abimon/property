@@ -5,5 +5,6 @@ urlpatterns = [
     path('rent',views.rent),
     path('<int:id>/details',views.details),
     path('register',views.reg),
-    path('about', views.about)
+    path('about', views.about),
+    path('terms_conditions', views.terms_conditions)
 ]
