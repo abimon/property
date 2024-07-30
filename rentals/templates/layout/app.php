@@ -6,7 +6,7 @@
     <title>Housing | Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="shortcut icon" href="{% static 'images/logo.png'%}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.css' %}" />
     <link rel="stylesheet" href="{% static 'assets/style.css' %}" />
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -41,10 +41,8 @@
         <div class="navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-
-
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target=".navbar-collapse">
+                <a href="/"><img src="{% static 'images/logo.png'%}" alt="Realestate" style="height:10vh;"></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -57,6 +55,7 @@
                         <li class="active"><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/contact">Contact</a></li>
+                        <li><a href="/rent">Rent</a></li>
                     </ul>
                 </div>
                 <!-- #Nav Ends -->
@@ -65,21 +64,7 @@
         </div>
 
     </div>
-    <!-- #Header Starts -->
-    <div class="container">
-
-        <!-- Header Starts -->
-        <div class="header">
-            <a href="/"><img src="{% static 'images/logo.png'%}" alt="Realestate" style="height:10vh;"></a>
-
-            <ul class="pull-right">
-                <!-- <li><a href="/buysalerent">Buy</a></li>
-                <li><a href="/buysalerent">Sale</a></li> -->
-                <li><a href="/rent">Rent</a></li>
-            </ul>
-        </div>
-        <!-- #Header Starts -->
-    </div>
+   
     {%block content%}{%endblock%}
 
     <div class="footer">
@@ -89,7 +74,7 @@
 
 
             <div class="row">
-                
+
                 <div class="col-md-4">
                     <h4>Newsletter</h4>
                     <p>Get notified about the latest properties in our marketplace.</p>
@@ -130,13 +115,11 @@
                             {%csrf_token%}
                             <div class="form-group">
                                 <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2"
-                                    placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="exampleInputPassword2">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword2"
-                                    placeholder="Password">
+                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
                             </div>
                             <!-- <div class="checkbox">
                                 <label>
