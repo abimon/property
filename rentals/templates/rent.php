@@ -111,7 +111,7 @@
                 {%endif%}
                 {% if house.gate == True %}
                 <span data-toggle="tooltip" data-placement="bottom" data-original-title="Gated">
-                  <i class="fa fa-fire" aria-hidden="true"></i>
+                  <i class="fa fa-lock" aria-hidden="true"></i>
                 </span>
                 {%endif%}
               </div>

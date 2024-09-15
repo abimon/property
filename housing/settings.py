@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-013yq!9eits5dvggw3q4^ll##s@t&a_y7t2mu2+w8e&ak54+lt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["django.apektechinc.com"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -68,22 +68,22 @@ WSGI_APPLICATION = 'housing.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'apektech_property',
-        'USER':'apektech_admin',
-        'PASSWORD':'Apek@2024',
-        'HOST':'localhost'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         # 'ENGINE': 'django.db.backends.mysql',
+#         # 'NAME': 'apektech_property',
+#         # 'USER':'apektech_admin',
+#         # 'PASSWORD':'Apek@2024',
+#         # 'HOST':'localhost'
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

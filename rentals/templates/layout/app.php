@@ -58,15 +58,9 @@
     </div>
    
     {%block content%}{%endblock%}
-
     <div class="footer">
-
         <div class="container">
-
-
-
             <div class="row">
-
                 <div class="col-md-4">
                     <h4>Newsletter</h4>
                     <p>Get notified about the latest properties in our marketplace.</p>
